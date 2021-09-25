@@ -1,0 +1,66 @@
+body {
+  background-color:rgb(72, 158, 216);
+}
+button {
+  border-radius: 5px;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  padding: 6px 15px 6px 15px;
+  font-style: bold;
+  border-radius: 25%;
+  font-family: "Times New Roman", Times, serif;
+}
+
+button:hover {
+  color: black;
+  background: #d5c2ee;
+}
+
+nav {
+  color: rgb(255, 255, 255);
+  border: 3px solid #ffffff;
+  background-attachment: fixed;
+  background-color: #000000;
+  font-family: "Courier New", Courier, monospace;
+}
+.loader {
+  margin: 0 auto;
+}
+.avatar {
+  border-radius: 100px;
+  margin-bottom: 25px;
+}
+#main {
+  padding: 14px 50px;
+  margin: 0 auto;
+  display: none;
+}
+
+.info {
+  max-width: 300px;
+  margin: 15px auto;
+  text-align: center;
+  font-family: bold;
+  font-style: italic;
+  padding: 15px;
+  border-radius: 50px;
+  background-color: black;
+  border: 3px solid #ffffff;
+  color: white;
+}
+.info:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.1);
+  background-color: #000000;
+  border: 5px solid #000000;
+}
+.name {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+.email {
+  font-family: sans-serif;
+  font-size: 16px;
+  overflow-wrap: break-word;
+}
